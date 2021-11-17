@@ -1,0 +1,145 @@
+
+header {
+  display: grid;
+  color: white;
+  grid-row: 1/5;
+  grid-column: 1/3;
+  font-size: 100px;
+  font-family: 'Lora', serif;
+}
+ 
+
+img{
+  grid-row: 1;
+  grid-column: 1/4;
+  max-height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.calque{
+  grid-row: 1;
+  grid-column: 1;
+  display: grid;
+  align-content: center;  
+  font-size: 10vw;
+  padding: 1em;
+  text-align: end;
+}
+.calque h3{
+   font-size: 17%;
+   writing-mode: vertical-rl;
+   text-orientation: mixed;
+   grid-column: 3;
+   width: 18%;
+   grid-row: 1/4;
+   font-weight: normal;
+   letter-spacing: 0.16em;
+  /* transform: translate(5%,5%); */
+}
+h1{
+  /*text-transform: uppercase;*/
+  font-size: 128%;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1ex;
+
+}
+h2{
+  display: block;
+  font-size: 32%;
+  grid-row: 2;
+  margin: auto 0;
+
+}
+
+p{
+  font-size: 20%;
+  grid-row: 3;
+  margin: auto 0;
+  align-self: end;
+}
+
+.vertical-line{
+  border-left: 6px solid white;
+  display: inline-block;
+  height: auto;
+  margin: 0 20px;
+  grid-row: 1/4;
+ 
+}
+ #menu_dynamique {
+  grid-column: 1/3;
+  grid-row: 1/8;
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  grid-template-rows: 40px 1fr 40px;
+  align-items: center;
+  justify-items: center;
+  
+  /* background: aquamarine; */
+} 
+.language{
+  color:slategray;
+  grid-column: 3;
+  grid-row: 1;
+  cursor: pointer;
+}
+.identity{
+  color:black;
+  grid-row: 1;
+  grid-column: 1;
+  cursor: pointer;
+}
+.menu{
+  color: black;
+  grid-column: 2;
+  grid-row: 1;
+  margin-right: auto;
+  cursor: pointer;
+}
+.notifications{
+  color:brown;
+  grid-column: 2;
+  grid-row: 1;
+  margin-left: auto;
+  cursor: pointer;
+}
+.facebook{
+  color:blue;
+  grid-column: 1;
+  grid-row: 3;
+  cursor: pointer;
+}
+.search{
+  color:crimson;
+  grid-column: auto;
+  grid-row: 1;
+  cursor: pointer;
+}
+.share{
+  color:white;
+  grid-column: auto;
+  grid-row: auto;
+  margin-top: auto;
+  cursor: pointer;
+}
+.phone{
+  color:black;
+  grid-column: 2;
+  grid-row: 1;
+  cursor: pointer;
+}
+.email{
+  color:black;
+  grid-row: 1;
+  grid-column: 2;
+  margin-left: 5em;
+  cursor: pointer;
+}
+.shopping{
+  color:cadetblue;
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 3em;
+  cursor: pointer;
+}
